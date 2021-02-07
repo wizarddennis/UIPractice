@@ -26,38 +26,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FF0000"
-        android:text="두번째 텍스트뷰"/>
+        android:text="닉네임"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFF00"
-        android:text="세번째 텍스트뷰"/>
-
-    <LinearLayout
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:text="사용할 닉네임 입력 (한글가능)"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="sp25"
-            android:text="네번째 텍스트뷰"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="italic"
-            android:text="다섯번째 텍스트뷰"/>
-
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="여섯번째 텍스트뷰"/>
 
 
 
